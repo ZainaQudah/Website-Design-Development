@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none ;
+    text-decoration: none;    
+    }
+/* Container */
+.header
+    {
+        position: sticky;
+        height: 1000px;
+        width: 95%;
+    }
+.logo {
+    width: 69%;
+    height: 69%;
+    margin-left: 20px;
+}
+/* Navigation Bar Style */
+.navBar {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: left;
+        justify-content: space-between;
+        height: 60px;
+    
+    }
+
+.navBar {
+        width: 100%;
+        display: flex;
+        text-align: right;
+        justify-content: space-between;
+        height: 60px;
+        
+    }
+    
+    ul{
+        padding: 1rem 3%;
+        text-align: right;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    ul li {
+    
+        display: inline-block;
+        text-align: center;
+        margin-left: 15px;
+        font-family:'Josefin Sans', sans-serif;  
+
+    }
+    
+    ul li a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 0.5rem 0.5rem;    
+    }
+    
+    ul li a:hover {
+        transition: 0.1s;
+        font-size: 15px;
+        cursor: pointer;
+        color: rgb(180, 137, 140);
+    }
+ /* Home Bar */
+.ITALY h2{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: rgb(255, 255, 255);
+}
+.ITALY {
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: aliceblue;
+}  
+body{
+    background: url(Header-Background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+
+}
+@media screen and (max-width:400px)
+{
+    body
+    {
+        /* overflow: hidden; */
+    }
+    ul
+    {
+        margin-top: 200px;
+        margin-left: 20px;
+        font-weight: bold;
+        font: size 10px;
+    }
+    .headParagraf
+    {
+      font-size: xx-large;
+      margin-top: 50px;
+      
+    }
+
+}
+
+

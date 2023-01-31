@@ -1,0 +1,17 @@
+.contactUs {
+    padding: 50px;
+    margin: auto;
+    margin-top:170px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #3a2e2d;
+    text-align: center;
+}
+.headerFooter {
+    text-align: center;
+}
+body {
+        box-sizing: border-box;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+    }
